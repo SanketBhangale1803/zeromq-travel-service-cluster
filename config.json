@@ -1,0 +1,61 @@
+{
+  "cluster": {
+    "all_node_ids": [1, 2, 3],
+    "initial_leader_id": 1
+  },
+
+  "timing": {
+    "heartbeat_interval": 1.0,
+    "heartbeat_timeout": 3.0,
+    "election_timeout": 2.0,
+    "log_sync_interval": 5.0
+  },
+
+  "nodes": {
+    "1": {
+      "role": "leader",
+      "network": {
+        "heartbeat_address": "tcp://localhost:5555",
+        "control_address": "tcp://localhost:5560",
+        "election_address": "tcp://localhost:5561"
+      },
+      "database": {
+        "path": "leader_log.db"
+      }
+    },
+    "2": {
+      "role": "follower",
+      "network": {
+        "heartbeat_address": "tcp://localhost:5555",
+        "control_address": "tcp://localhost:5560",
+        "election_address": "tcp://localhost:5562"
+      },
+      "database": {
+        "path": "follower2_log.db"
+      }
+    },
+    "3": {
+      "role": "follower",
+      "network": {
+        "heartbeat_address": "tcp://localhost:5555",
+        "control_address": "tcp://localhost:5560",
+        "election_address": "tcp://localhost:5563"
+      },
+      "database": {
+        "path": "follower3_log.db"
+      }
+    }
+  },
+
+  "cpp_workers": {
+    "availability": {
+      "address": "tcp://localhost:5556"
+    },
+    "pricing": {
+      "address": "tcp://localhost:5557"
+    },
+    "booking": {
+      "address": "tcp://localhost:5558"
+    }
+  }
+}

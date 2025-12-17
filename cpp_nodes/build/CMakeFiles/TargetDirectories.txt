@@ -1,0 +1,9 @@
+/Users/emmanuelwestra/Downloads/2026 Fall/Distributed Computing/final-project/DistributedComputing/cpp_nodes/build/CMakeFiles/availability_worker.dir
+/Users/emmanuelwestra/Downloads/2026 Fall/Distributed Computing/final-project/DistributedComputing/cpp_nodes/build/CMakeFiles/pricing_worker.dir
+/Users/emmanuelwestra/Downloads/2026 Fall/Distributed Computing/final-project/DistributedComputing/cpp_nodes/build/CMakeFiles/booking_worker.dir
+/Users/emmanuelwestra/Downloads/2026 Fall/Distributed Computing/final-project/DistributedComputing/cpp_nodes/build/CMakeFiles/edit_cache.dir
+/Users/emmanuelwestra/Downloads/2026 Fall/Distributed Computing/final-project/DistributedComputing/cpp_nodes/build/CMakeFiles/rebuild_cache.dir
+/Users/emmanuelwestra/Downloads/2026 Fall/Distributed Computing/final-project/DistributedComputing/cpp_nodes/build/CMakeFiles/list_install_components.dir
+/Users/emmanuelwestra/Downloads/2026 Fall/Distributed Computing/final-project/DistributedComputing/cpp_nodes/build/CMakeFiles/install.dir
+/Users/emmanuelwestra/Downloads/2026 Fall/Distributed Computing/final-project/DistributedComputing/cpp_nodes/build/CMakeFiles/install/local.dir
+/Users/emmanuelwestra/Downloads/2026 Fall/Distributed Computing/final-project/DistributedComputing/cpp_nodes/build/CMakeFiles/install/strip.dir
