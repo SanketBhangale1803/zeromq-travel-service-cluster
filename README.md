@@ -1,4 +1,4 @@
-# Distributed Travel Agency System
+# zeromq-travel-service-cluster
 
 A distributed computing system demonstrating leader election, fault tolerance, and polyglot architecture using Python coordination nodes and C++ worker nodes.
 
